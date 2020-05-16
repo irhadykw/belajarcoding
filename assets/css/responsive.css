@@ -1,0 +1,91 @@
+@media all and (max-width: 768px) {
+
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    margin-left: 0;
+  }
+  nav ul li a{
+    font-size: 1em;
+    padding: 5px 15px;
+  }
+
+  #top h1 {
+    font-size: 3.5em;
+  }
+  #top p {
+    letter-spacing: 0.1em;
+  }
+  .content-article figure {
+    display: none;
+  }
+  #content {
+    width: 59%;
+  }
+  #left-nav {
+    width: 40%;
+  }
+} /*akhir 768px*/
+
+@media all and (max-width: 576px) {
+  #logo {
+    font-size: 1em;
+    letter-spacing: 0.2em;
+  }
+  nav {
+    display: none;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #01ae1e;
+    padding: 10px 0;
+  }
+  nav ul li {
+    margin-left: 5px;
+  }
+  nav ul li a {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 1.2em;
+  }
+
+  .icon-menu {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    margin-top: 10px
+  }
+  .icon-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  .icon-menu a:hover{
+    color: darkgreen;
+  }
+
+  #content, #left-nav {
+    width: 100%;
+    float: none;
+  }
+  p {
+    font-size: 1em;
+  }
+  p.kutipan {
+    font-size: 0.8em;
+  }
+  .sub-materi {
+    font-size: 1em;
+  }
+  ol.point-ceklist{
+    font-size: 1em;
+    margin-left: 5px;
+  }
+} /*akhir 576px*/

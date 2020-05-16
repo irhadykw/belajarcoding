@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Belajar Website</title>
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1><a href="index.html">aifCoding</a></h1>
+      </div>
+      <nav id="pilihan-menu">
+        <ul>
+          <li><a href="#beranda"><span class="fa fa-home">&nbsp;</span>Beranda</a></li>
+          <li><a href="#html5"><span class="fa fa-html5">&nbsp;</span>HTML</a></li>
+          <li><a href="#css3"><span class="fa fa-css3">&nbsp;</span>CSS</a></li>
+          <li><a href="#javascript"><span class="fa fa-code">&nbsp;</span>JavaScript</a></li>
+        </ul>
+      </nav>
+      <div class="icon-menu"><a onclick="togglePilihanMenu()"><span class="fa fa-bars"></span></a></div>
+    </header>
+    <main>
+      <div id="top">
+        <h1>BELAJAR CODING</h1>
+        <p>Selamat datang di Belajar Coding. Semoga Sukses.</p>
+      </div>
+      <div id="content">
+        <article id="beranda" class="card">
+          <h2>Pengantar</h2>
+          <figure>
+             <img src="./assets/images/html-hpg-featured-new.png" alt="html-css-javascript" />
+             <figcaption>Sumber: https://html.com/wp-content/uploads/html-hpg-featured-new.png</figcaption>
+          </figure>
+          <p>"Website di era sekarang sudah menjadi kebutuhan utama yang tidak bisa diabaikan. Seluruh sektor bisnis atau edukasi dapat memanfaatkan website sebagai alat untuk promosi, tukar informasi, dan lainnya. Per Januari 2019 terdapat 1.518.207.413 website yang aktif, berdasarkan survey dari Webcraft Webserver Survey. Bedasarkan data dari World Wide Web Technology Surveys, dari seluruh website yang aktif, 88.2% menggunakan HTML, 95.6% menggunakan CSS dan 95% menggunakan JavaScript" [dicoding.com].</p>
+          <p>Disini kita akan belajar pondasi untuk membangun aplikasi berbasis web mulai dari awal. Jadi bagi Anda yang belum pernah sama sekali belajar pemrograman web, jangan khawatir. Disini Anda akan dipandu mulai dari nol, sehingga setelah belajar disini, Anda akan cukup memiliki bekal untuk membangun aplikasi berbasis web.</p>
+          <p>Selamat Belajar, semoga sukses.</p>
+          <h4>Hubungan HTML - CSS - Javascript</h4>
+          <p>Kita terbiasa dengan tampilan website yang nampak pada browser, tetapi apakah kalian tahu bagaimana website dapat tampil demikian? Terdapat 3 (tiga) fondasi penting dalam membuat website. Yang pertama adalah HTML, yakni salah satu markup language, yang digunakan untuk membuat struktur dan menampilkan konten pada World Wide Web (Website). CSS dan JavaScript merupakan fondasi lainnya yang digunakan untuk mempercantik dan menjadikan website lebih dinamis dan interaktif. [dicoding.com]</p>
+          <p>Hubungan tersebut dapat digambarkan sebagai berikut.</p>
+          <figure>
+             <img src="./assets/images/hubungan-html-css-javascript.png" alt="hubungan-html-css-javascript" />
+             <figcaption>Sumber: https://www.dicoding.com</figcaption>
+          </figure>
+          <p>Jika diibaratkan seperti bangunan, maka HTML merupakan pondasi semua aspek bangunan seperti tempat berdirinya tembok, pintu, atap, dan lain sebagainya. Sedangkan CSS sebagai perabotan hiasan yang mampu memperindah rumah sepeti hiasan rumah, wallpaper, karpet, dan lain sebagainya. Sedangkan Javascript berperan sebagai hal yang menghidupkan dan responsif seperti bisa untuk menyalakan lampu atau membukakan pintu.</p>
+        </article>
+        <article id="html5" class="card">
+          <h2>Hypertext Markup Language (HTML)</h2>
+          <table class="content-article">
+            <tr>
+              <td>
+                <figure>
+                   <img src="./assets/images/html-5.svg" alt="html5" />
+                   <figcaption>Sumber: https://worldvectorlogo.com/</figcaption>
+                </figure>
+              </td>
+              <td>
+                  <p class="kutipan">"HTML adalah bahasa markup standar untuk halaman Web. Dengan HTML Anda dapat membuat situs web Anda sendiri. HTML mudah dipelajari - Anda akan menikmatinya!"[w3schools.com]</p>
+                  <p>"Demikianlah tiga kalimat pembuka yang ada pada website w3schools.com terkait HTML. Dari ketiga kalimat tersebut, dapat kita ketahui bahwa, HTML merupakan bahasa markup standar untuk membuat halaman web. Untuk mempelajari sangat mudah, dan pasti kita akan menikmati pelajaran HTML ini, apalagi bagi yang memiliki motivasi kuat untuk bisa membuat aplikasi berbasis web.</p>
+                  <p>HTML5 adalah versi HTML terbaru telah disempurnakan. Secara teknis, HTML bukan bahasa pemrograman, melainkan bahasa markup. Berikut ini materi yang akan dipelajari.</p>
+                  <div class="sub-materi">
+                    <a href="#">Struktur Dasar HTML</a>
+                    <a href="#">Atribut HTML</a>
+                    <a href="#">Heading</a>
+                    <a href="#">Paragraf</a>
+                    <a href="#">Link</a>
+                    <a href="#">Images</a>
+                    <a href="#">Tables</a>
+                    <a href="#">List</a>
+                    <a href="#">Form</a>
+                  </div>
+              </td>
+            </tr>
+          </table>
+        </article>
+
+        <article id="css3" class="card">
+          <h2>Cascading Style Sheet (CSS)</h2>
+          <table class="content-article">
+            <tr>
+              <td>
+                <figure>
+                   <img src="./assets/images/css3.svg" alt="css3" />
+                   <figcaption>Sumber: https://worldvectorlogo.com/</figcaption>
+                </figure>
+              </td>
+              <td>
+                  <p class="kutipan">"CSS adalah bahasa yang menggambarkan style dari dokumen HTML. CSS menjelaskan bagaimana elemen HTML harus ditampilkan."[w3schools.com]</p>
+                  <p>Dari kutipan tersebut di atas, dapat dipahami bahwa CSS, akronim dari <i>Cascading Style Sheet</i>,  digunakan untuk mengontrol setiap elemen yang ada pada dokumen HTML dengan cara yang sederhana dan mudah, sehingga tampilan dokumen HTML lebih indah dan menarik.</p>
+                  <p>Menggunakan CSS adalah keharusan dalam mengembangkan aplikasi berbasis web, atau dengan kata lain jika ingin menjadi desainer web - mendesain HTML dan CSS adalah keterampilan yang harus dimiliki.</p>
+                  <p>Adapun manfaat menggunakan CSS, sebagaimana disebutkan pada situs tutorialspoint.com antara lain:</p>
+                  <ol class="point-ceklist">
+                    <li><span class="fa fa-check"></span>&nbsp;&nbsp;<b>Membuat situs web menakjubkan</b> - CSS menangani tampilan dan nuansa bagian dari halaman web. Dengan CSS, Anda dapat mengontrol warna teks, jenis font, jarak antar paragraf, bagaimana ukuran kolom dan tata letak, gambar latar atau warna apa yang digunakan, desain layout, variasi tampilan untuk berbagai perangkat dan ukuran layar serta berbagai efek lainnya;</li>
+                    <li><span class="fa fa-check"></span>&nbsp;&nbsp;<b>Kontrol web</b> - CSS mudah dipelajari dan dipahami tetapi memberikan kontrol yang kuat atas penyajian dokumen HTML. Paling umum, CSS dikombinasikan dengan bahasa markup HTML atau XHTML.</li>
+                    <li><span class="fa fa-check"></span>&nbsp;&nbsp;<b>Mempelajari bahasa lain</b> - Setelah Anda memahami dasar HTML dan CSS, maka bahasa pemrograman untuk mengembangkan aplikasi berbasis web seperti javascript, php, atau angular menjadi lebih mudah dipahami.</li>
+                  </ol>
+                  <p>Berikut materi CSS yang akan dipelajari.</p>
+                  <div class="sub-materi">
+                    <a href="#">Syntax</a>
+                    <a href="#">Color</a>
+                    <a href="#">Backgrounds</a>
+                    <a href="#">Fonts</a>
+                    <a href="#">Text</a>
+                    <a href="#">Images</a>
+                    <a href="#">Link</a>
+                    <a href="#">Tables</a>
+                    <a href="#">Border</a>
+                    <a href="#">Margin</a>
+                    <a href="#">Padding</a>
+                    <a href="#">Positioning</a>
+                    <a href="#">Box Sizing</a>
+                    <a href="#">Responsive</a>
+                  </div>
+              </td>
+            </tr>
+          </table>
+        </article>
+
+        <article id="javascript" class="card">
+          <h2>JavaScript</h2>
+          <table class="content-article">
+            <tr>
+              <td>
+                <figure>
+                   <img src="./assets/images/javascript-1.svg" alt="css3" />
+                   <figcaption>Sumber: https://worldvectorlogo.com/</figcaption>
+                </figure>
+              </td>
+              <td>
+                  <p>JavaScript adalah bahasa pemrograman tingkat tinggi yang didukung oleh semua browser web modern. Javascript merupakan salah satu teknologi inti dari pengembangan aplikasi berbasis web, bersama dengan HTML dan CSS yang mungkin telah Anda pelajari sebelumnya.<p>
+                  <p>Javascript merupakan salah satu bahasa pemrograman web yang bisa membuat halaman website Anda lebih menarik serta lebih hidup. Bahasa pemrograman javascript itu dijalankan di perangkat pengunjung website atau situs, bukan di server, sebagaimana bahasa pemrograman PHP.</p>
+                  <p>Javascript membuat website menjadi lebih responsif, jadi jika tidak menggunakan javascript tidak masalah, tapi akan sangat berpengaruh pada tampilan website. Jika mengibaratkan javascript seperti rumah, mungkin tidak ada masalah jika tidak menggunakan lampu atau tidak dipasang pintu, tetapi hal ini tentu akan menimbulkan kesan rumah akan gelap, suram, dan kurang menarik. Begitu pula dengan website, tidak adanya javascript membuat website kurang menarik.</p>
+                  <p>Berikut materi JavaScript yang akan dipelajari.</p>
+                  <div class="sub-materi">
+                    <a href="#">Syntax</a>
+                    <a href="#">Comments</a>
+                    <a href="#">Variables</a>
+                    <a href="#">Operators</a>
+                    <a href="#">Tipe Data</a>
+                    <a href="#">Functions</a>
+                    <a href="#">Objects</a>
+                    <a href="#">Events</a>
+                    <a href="#">Array</a>
+                    <a href="#">Percabangan</a>
+                    <a href="#">Perulangan</a>
+                  </div>
+              </td>
+            </tr>
+          </table>
+        </article>
+      </div>
+
+      <aside>
+        <div id="left-nav">
+          <article class="card">
+            <h3>Menu Pilihan</h3>
+            <div class="link internal">
+              <ul>
+                <li><a href="#beranda"><span class="fa fa-home">&nbsp;</span>Beranda</a></li>
+                <li><a href="#html5"><span class="fa fa-html5">&nbsp;&nbsp;</span>Materi HTML</a></li>
+                <li><a href="#css3"><span class="fa fa-css3">&nbsp;</span>Materi CSS</a></li>
+                <li><a href="#javascript"><span class="fa fa-code">&nbsp;</span>Materi JavaScript</a></li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Link Belajar Website</h3>
+            <div class="link external">
+              <ul>
+                <li>
+                  <a href="https://www.dicoding.com" target="_blank">
+                    <span><img class="logo" src="./assets/images/dicoding-logo.png" /></span>&nbsp;&nbsp;Dicoding Indonesia
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.w3schools.com/" target="_blank">
+                    <span><img class="logo" src="./assets/images/w3school-logo.png" /></span>&nbsp;&nbsp;W3School
+                  </a>
+                </li>
+                <li>
+                  <a href="https://tutorialweb.net/" target="_blank">
+                    <span><img class="logo" src="./assets/images/tutorialweb-logo.png" /></span>&nbsp;&nbsp;Tutorial Web
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.tutorialspoint.com/" target="_blank">
+                    <span><img class="logo" src="./assets/images/tutorialspoint-logo.png" /></span>&nbsp;&nbsp;Tutorials Point
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.freecodecamp.org/" target="_blank">
+                    <span><img class="logo" src="./assets/images/freecodecamp-logo.png" /></span>&nbsp;&nbsp;Free Code Camp
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Profil</h3>
+            <div>
+              <table class="profil">
+                <tr>
+                  <td><span class="fa fa-user"></span></td>
+                  <td>: IRHADY KUSUMA WARDHANA</td>
+                </tr>
+                <tr>
+                  <td><span class="fa fa-envelope-o"></span></td>
+                  <td>: irhadykw@gmail.com</td>
+                </tr>
+                <tr>
+                  <td><span class="fa fa-phone"></span></td>
+                  <td>: +6285211442629</td>
+                </tr>
+                <tr>
+                  <td><span class="fa fa-facebook-square"></span></td>
+                  <td>: Irhady Kusuma W</td>
+                </tr>
+                <tr>
+                  <td><span class="fa fa-twitter-square"></span></td>
+                  <td>: @irhadykw</td>
+                </tr>
+                <tr>
+                  <td><span class="fa fa-instagram"></span></td>
+                  <td>: irhadykw</td>
+                </tr>
+              </table>
+            </div>
+          </article>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p>copyright &copy; 2020 - aifCreative Indonesia. All rights reserved.</p>
+    </footer>
+    <script src="./assets/scripts/script.js"></script>
+  </body>
+</html>

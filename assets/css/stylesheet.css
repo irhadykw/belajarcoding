@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+h2, h3 {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  letter-spacing: 2px;
+}
+h4 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+}
+p {
+  font-size: 1.2em;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+/* BAGIAN HEADER */
+header {
+  display: flex;
+  background-color: #01ae1e;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  z-index: 13;
+  height: 70px;
+}
+#logo {
+  padding-left: 30px;
+  font-size: 1.2em;
+  letter-spacing: 0.3em;
+  font-family: 'Kaushan Script', cursive;
+  line-height: 50px;
+}
+#logo a {
+  color: #fff;
+}
+#logo a:hover {
+  color: darkgreen;
+}
+
+nav {
+  color: white;
+  padding: 13px 0;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  font-size: 1.2em;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 30px;
+  font-size: 1em;
+}
+
+nav ul li a:hover {
+  color: darkgreen;
+}
+.icon-menu {
+  display: none;
+}
+
+/* BAGIAN MAIN */
+main {
+  overflow: auto;
+}
+
+#top {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url('../images/bground2.jpg');
+}
+#top h1 {
+  font-size: 4em;
+  letter-spacing: 0.2em;
+  color: rgba(255,255,255, 0.6);
+}
+#top p {
+  letter-spacing: 0.3em;
+  color: rgba(255,255,255, 0.6);
+}
+
+#content {
+  width: 74%;
+  float: right;
+}
+
+.card {
+  margin: 20px 0px 20px;
+  box-shadow: 3px 6px 9px 5px rgba(46, 116, 0, 0.3);
+  padding: 20px;
+}
+
+table.content-article tr td:nth-child(1) {
+  vertical-align: text-top;
+}
+table.content-article tr td:nth-child(2) {
+  padding-left: 20px;
+}
+
+#beranda img {
+  width: 100%;
+}
+figure img {
+  width: 250px;
+}
+figcaption {
+  font-size: 0.6em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sub-materi {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sub-materi a {
+  color: green;
+  text-decoration: underline;
+  margin-right: 10px;
+
+}
+.sub-materi a:hover {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+p.kutipan {
+  font-size: 1em;
+  font-family: 'Space Mono', monospace;
+  line-height: 1.2em;
+}
+
+/* BAGIAN ASIDE */
+#left-nav {
+  width: 25%;
+}
+
+.link, table.profil {
+  margin-left: 10px;
+}
+.link ul li, table.profil tr td {
+  padding: 5px 0;
+}
+
+.link ul li a {
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 0;
+}
+.link ul li a:hover {
+  padding-left: 10px;
+  font-weight: bold;
+  background-color: rgba(46, 116, 0, 0.5);
+  transition: all 0.1s ease;
+}
+span .logo {
+  width: 15px;
+}
+
+ol.point-ceklist{
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-left: 15px;
+  list-style: none;
+}
+ol li {
+  padding: 10px;
+}
+
+table.profil tr td:nth-child(2) {
+  padding-left: 10px;
+}
+
+/* BAGIAN FOOTER */
+footer {
+  font-size: 0.7em;
+  color: rgba(255,255,255,0.8);
+  background-color: #01ae1e;
+  padding:20px 10px;
+  text-align: center;
+}
